@@ -17,13 +17,27 @@ public class PigLatin {
 
         int len = word.length();
 
-        for (int i = 0; i < len; i++) {
-            for(int j = 0; j < consonants; j++) {}
+        //int consonantsLen = 21;
+        //int vowelsLen = 5;
+
+        /*for (int i = 0; i < len; i++) {
+            for(int j = 0; j < consonantsLen; j++) {}
                 if (word.charAt(i) == 'a') {
                     System.out.println("Found the letter 'a' at position " + i);
                 }
                 word.substring(i, i + 1); //up to but not including i + 1
             }
+        }*/
+
+        char letter;
+
+        for (int k = 0; k < len; k++) {
+            letter = word.charAt(k);
+            for (int l = 0; l < 21; l++) {
+                
+            }
+            word.substring(0, k + 1);
+
         }
 
         pigBot.close();
